@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(19, 80, 100);
+    height: 100px;
+}
+
+
+footer{
+    background-color: rgb(19, 80, 100);
+    height: 150;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.liNavTop {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.liNavTop a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ulNavTop {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid {
+    border: 5px;
+    display: flex;
+   
+}
